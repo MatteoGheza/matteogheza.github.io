@@ -1,0 +1,84 @@
+baseURL = "http://www.matteogheza.it"
+title = "MatteoGheza"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+author = "Matteo Gheza"
+info = "Student"
+description = "Matteo Gheza's personal website"
+keywords = "blog,developer,personal"
+since = 2023
+enableTwemoji = true
+colorScheme = "dark"
+hidecolorschemetoggle = false
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+# Social links
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-3x"
+weight = 1
+url = "https://github.com/MatteoGheza/"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
+
+[languages.it]
+languageName = ":it:"
+
+[languages.it.params]
+info = "Studente"
+description = "Sito web personale di Matteo Gheza"
+keywords = "blog,sviluppatore,personale"
+
+[[languages.it.menu.main]]
+name = "Chi sono"
+weight = 1
+url = "chi-sono/"
+
+[[languages.it.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.it.menu.main]]
+name = "Progetti"
+weight = 3
+url = "progetti/"
+
+[[languages.it.menu.main]]
+name = "Contatti"
+weight = 5
+url = "contatti/"
